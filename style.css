@@ -1,6 +1,68 @@
 * {
   font-family: sans-serif;
 }
+.mainblock {
+  height: 700px;
+  width: 100%;
+  border: 5px solid #ff0000;
+}
+.subblock {
+  height: 700px;
+  width: 85%;
+  border: 5px solid #9400d3;
+  margin-left: auto;
+  margin-right: auto;
+  background-origin: border-box;
+  overflow: hidden;
+}
+.menu {
+  width: 100%;
+  height: 70px;
+  margin-top: 20px;
+  border: 5px solid #008000;
+}
+.content {
+  width: 50%;
+  height: 400px;
+  margin-top: 50px;
+  border: 5px solid #00ffff;
+  overflow: hidden;
+}
+.maincontent {
+  height: 700px;
+  width: 85%;
+  border: 5px solid #9400d3;
+  margin-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  background-origin: border-box;
+  overflow: hidden;
+}
+.maincontent:first-child {
+  text-align: center;
+}
+.innercontentparagraph {
+  width: 40%;
+  height: 400px;
+  margin-top: 100px;
+  border: 5px solid #d87093;
+  overflow: hidden;
+}
+.footer {
+  height: 500px;
+  background-color: grey;
+  width: 100%;
+  border: 5px solid #ff0000;
+}
+.subfooter {
+  height: 500px;
+  width: 85%;
+  border: 5px solid #ffff00;
+  margin-left: auto;
+  margin-right: auto;
+  background-origin: border-box;
+  overflow: hidden;
+}
 .paragraph {
   font-size: 16px;
   line-height: 26px;
