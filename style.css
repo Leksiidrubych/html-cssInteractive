@@ -1,67 +1,43 @@
 * {
   font-family: sans-serif;
+  margin: 0;
+  padding: 0;
 }
-.mainblock {
-  height: 700px;
-  width: 100%;
-  border: 5px solid #ff0000;
-}
-.subblock {
-  height: 700px;
-  width: 85%;
-  border: 5px solid #9400d3;
-  margin-left: auto;
-  margin-right: auto;
-  background-origin: border-box;
-  overflow: hidden;
+.container {
+  max-width: 1140px;
+  margin: 0 auto;
 }
 .menu {
-  width: 100%;
-  height: 70px;
-  margin-top: 20px;
-  border: 5px solid #008000;
+  display: flex;
+  justify-content: space-between;
 }
-.content {
-  width: 50%;
-  height: 400px;
-  margin-top: 50px;
-  border: 5px solid #00ffff;
-  overflow: hidden;
+.headingText {
+  width: 425px;
 }
-.maincontent {
-  height: 700px;
-  width: 85%;
-  border: 5px solid #9400d3;
-  margin-top: 50px;
-  margin-left: auto;
-  margin-right: auto;
-  background-origin: border-box;
-  overflow: hidden;
+.whatWeDo {
+  display: flex;
+  justify-content: space-between;
 }
-.maincontent:first-child {
-  text-align: center;
+.footerContainer {
+  width: 495px;
+}
+.footerHeading {
+  width: 340px;
+}
+.contacts {
+  display: flex;
+  list-style: none;
+  justify-content: space-between;
+}
+.contactsContainer {
+  display: flex;
+  justify-content: space-between;
+}
+.servisesCard {
+  width: 359px;
 }
 .innercontentparagraph {
-  width: 40%;
-  height: 400px;
-  margin-top: 100px;
-  border: 5px solid #d87093;
-  overflow: hidden;
-}
-.footer {
-  height: 500px;
-  background-color: grey;
-  width: 100%;
-  border: 5px solid #ff0000;
-}
-.subfooter {
-  height: 500px;
-  width: 85%;
-  border: 5px solid #ffff00;
-  margin-left: auto;
-  margin-right: auto;
-  background-origin: border-box;
-  overflow: hidden;
+  justify-content: space-between;
 }
 .paragraph {
   font-size: 16px;
@@ -69,6 +45,7 @@
   color: #1f3f68;
 }
 .heading1 {
+  width: 510px;
   font-size: 64px;
   color: #1f3f68;
 }
@@ -85,6 +62,7 @@
   font-size: 20px;
   line-height: 30px;
   color: #1f3f68;
+  width: 359px;
 }
 .input {
   border: 1px solid #356ead;
