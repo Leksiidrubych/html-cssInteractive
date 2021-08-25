@@ -7,34 +7,222 @@
   max-width: 1140px;
   margin: 0 auto;
 }
-.menu {
+.headerMainBlock {
+  background: linear-gradient(
+    0deg,
+    #ebf3fb 8.84%,
+    rgba(152, 195, 232, 0) 31.12%
+  );
+  height: 768px;
+}
+.header {
+  height: 100%;
+  max-width: 1140px;
+  margin: 0 auto;
+  background-image: url(img/illustration.svg);
+  background-repeat: no-repeat;
+  background-position: right 190px;
+}
+
+.menuHeader {
   display: flex;
   justify-content: space-between;
+}
+.content {
+  width: 510px;
+  font-weight: 300;
+  font-size: 64px;
+  line-height: 74px;
+  letter-spacing: 0.04em;
+  color: #1f3f68;
+  margin-top: 115px;
+}
+.menuChild {
+  margin-top: 42px;
+}
+.contentHeading {
+  font-weight: 300;
+  line-height: 74px;
+  letter-spacing: 0.04em;
+  width: 510px;
+  font-size: 64px;
+  color: #1f3f68;
+  margin-bottom: 32px;
 }
 .headingText {
   width: 425px;
+  font-size: 16px;
+  line-height: 26px;
+  letter-spacing: 0.05em;
+  color: #1f3f68;
+  opacity: 0.6;
+  margin-bottom: 71px;
 }
-.whatWeDo {
-  display: flex;
-  justify-content: space-between;
+.mainContent {
+  margin-top: 64px;
 }
-.footerContainer {
-  width: 495px;
+.mainContentHeading {
+  font-weight: 300;
+  font-size: 36px;
+  line-height: 46px;
+  text-align: center;
+  letter-spacing: 0.05em;
+  color: #000000;
 }
+.footer {
+  width: 100%;
+  height: 657px;
+  left: 0px;
+  top: 2716px;
+  background: #316099;
+  margin-top: 112px;
+}
+
 .footerHeading {
   width: 340px;
+  font-size: 36px;
+  line-height: 46px;
+  letter-spacing: 0.05em;
+  color: #ffffff;
+  padding-top: 90px;
+  /* padding-left: 113px; */
+}
+.footerText {
+  width: 495px;
+  font-size: 16px;
+  line-height: 26px;
+  letter-spacing: 0.05em;
+  color: #ffffff;
+  opacity: 0.6;
+  margin-top: 32px;
+  /* margin-left: 113px; */
+  margin-bottom: 96px;
 }
 .contacts {
   display: flex;
   list-style: none;
   justify-content: space-between;
+  font-size: 16px;
+  line-height: 26px;
+  letter-spacing: 0.05em;
+  color: #ffffff;
+  margin-top: 64px;
+}
+.disclaimer {
+  font-size: 16px;
+  line-height: 26px;
+  letter-spacing: 0.05em;
+  color: #ffffff;
+  opacity: 0.4;
+  margin-top: 64px;
 }
 .contactsContainer {
   display: flex;
   justify-content: space-between;
 }
+.whatWeDo {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 64px;
+}
 .servisesCard {
-  width: 359px;
+  width: 360px;
+  background: #ffffff;
+  box-shadow: 5px 20px 50px rgba(16, 112, 177, 0.2);
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  padding: 44px 32px;
+}
+.servisesHeading {
+  font-size: 20px;
+  line-height: 30px;
+  letter-spacing: 0.05em;
+  color: #1f3f68;
+  margin-left: 32px;
+  margin-right: 32px;
+}
+.servisesText {
+  font-size: 16px;
+  line-height: 26px;
+  letter-spacing: 0.05em;
+  color: #1f3f68;
+  opacity: 0.6;
+  margin-top: 14px;
+  margin-left: 32px;
+  margin-right: 32px;
+  margin-bottom: 30px;
+}
+.mainContentImg {
+  align-self: center;
+  margin-bottom: 51px;
+}
+.servisesLink {
+  font-size: 14px;
+  line-height: 30px;
+  letter-spacing: 0.05em;
+  color: #5a98d0;
+  text-decoration: none;
+  margin-left: 32px;
+}
+.projectsHeading {
+  font-size: 36px;
+  text-align: center;
+  font-weight: 300;
+  font-size: 36px;
+  line-height: 46px;
+  text-align: center;
+  letter-spacing: 0.05em;
+  color: #000000;
+  padding-top: 64px;
+  padding-bottom: 32px;
+}
+.projectsText {
+  font-size: 16px;
+  line-height: 26px;
+  text-align: center;
+  letter-spacing: 0.05em;
+  color: #222222;
+  padding-bottom: 32px;
+}
+.projectImgBlock {
+  position: relative;
+}
+.projectImgSubBlock {
+  margin-top: 32px;
+  display: flex;
+  justify-content: space-between;
+}
+.projectImgSubBlock:first-child {
+  margin-right: 32px;
+}
+.projectImg {
+  width: 100%;
+}
+.onImageText {
+  font-size: 32px;
+  line-height: 46px;
+  text-align: right;
+  letter-spacing: 0.05em;
+  color: #ffffff;
+  position: absolute;
+  top: 64px;
+  right: 64px;
+}
+.innerSubblock {
+  position: relative;
+  box-sizing: border-box;
+}
+.subImageText {
+  font-size: 32px;
+  line-height: 46px;
+  text-align: right;
+  letter-spacing: 0.05em;
+  color: #ffffff;
+  position: absolute;
+  top: 32px;
+  left: 32px;
 }
 .innercontentparagraph {
   justify-content: space-between;
@@ -42,11 +230,6 @@
 .paragraph {
   font-size: 16px;
   line-height: 26px;
-  color: #1f3f68;
-}
-.heading1 {
-  width: 510px;
-  font-size: 64px;
   color: #1f3f68;
 }
 .contactsheading2 {
@@ -80,4 +263,29 @@
   text-align: center;
   color: #ffffff;
   text-transform: uppercase;
+}
+.custombutton {
+  width: 220px;
+  height: 56px;
+  left: 114px;
+  top: 522px;
+  background: #5a98d0;
+  box-shadow: 5px 10px 20px rgba(53, 110, 173, 0.2);
+  border-radius: 10px;
+}
+.buttonText {
+  font-size: 16px;
+  line-height: 26px;
+  text-align: center;
+  letter-spacing: 0.04em;
+  color: #ffffff;
+  padding-top: 15px;
+}
+.footerButton {
+  width: 236.63px;
+  height: 56px;
+  left: 1015px;
+  top: 2881px;
+  background: #5a98d0;
+  position: absolute;
 }
